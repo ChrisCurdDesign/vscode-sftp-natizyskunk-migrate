@@ -1,23 +1,41 @@
 # sftp sync extension for VS Code
 
-New maintained and updated version by [@Natizyskunk](https://github.com/Natizyskunk/) 😀 <!-- and [@satiromarra](https://github.com/satiromarra) --> <br>
-(Forked from the no longer maintained [liximomo's SFTP plugin](https://github.com/liximomo/vscode-sftp.git))
+## Deprecation Notice
 
-- VS Code marketplace : https://marketplace.visualstudio.com/items?itemName=Natizyskunk.sftp <br>
-- VSIX release : https://github.com/Natizyskunk/vscode-sftp/releases/
+**This extension is no longer actively maintained.**
 
-✳ I would be more than happy to have you participate in one way or another to this project. You can do so by simply following the [templates](https://github.com/Natizyskunk/vscode-sftp/issues/new/choose) when you open a new issue or a new pull request.
+For continuity, this repository remains available as historical context for the community and previous contributors.
 
-## ℹ INFOS - 2025/03/13
-I've tried to keep this extension up-to-date as much as I can and added a lot of new relevant features. Saddly, for the last year and a half I wasn't really able to work on the project because of personal reasons and I'm really not sure if and when I'll be able to get more time to work on it again. So for now consider the [v1.16.3](https://github.com/Natizyskunk/vscode-sftp/releases/tag/v1.16.3) as the latest official stable release available.
+### Recommended successor: CCD SFTP
 
-## ℹ INFOS - 2023/06/23
-This is the main repository for the SFTP extension since [@liximomo](https://github.com/liximomo) has set his own to deprecated in favor of this one in the VSCode marketplace.
-There are also other forks that are available. Feel free to try them.
+- Marketplace: https://marketplace.visualstudio.com/items?itemName=CCD-Studios.ccd-sftp
+- Repository: https://github.com/ChrisCurdDesign/vscode-sftp
+
+## Migration
+
+1. Uninstall old extension.
+2. Install `CCD-Studios.ccd-sftp`.
+3. Keep your existing `sftp.json` config unless specific settings changed.
+
+## Project continuity
+
+This project is part of the long-running vscode-sftp lineage, including earlier work from [@liximomo](https://github.com/liximomo), [@Natizyskunk](https://github.com/Natizyskunk), [@satiromarra](https://github.com/satiromarra), and many contributors.
+
+## INFOS - 2023/06/23
+Historical note from June 2023: this repository became one of the maintained continuation points after [@liximomo](https://github.com/liximomo)'s original extension.
+There are multiple community forks, and users should choose the one that best matches their needs.
 
 A lot of work as been brought to fix bugs, add new features and more than 50 updates have been released with a lot of improvements and stability fixes for almost two years now. 😎
 
-I've been working hard to fix a lot of things and I've updated more than 50 new releases with a lot of improvements and stability fixes and I've brought new features for almost three years now. 
+At the start of the year 2023, a new fork from [@satiromarra](https://github.com/satiromarra) was born with some really cool features. So for the future we decided to work together and put our efforts in one place to make an even better extension for the community.
+
+As of today (2023-06-23) we'll now be two collaborators : [@satiromarra](https://github.com/satiromarra) and [@me](https://github.com/Natizyskunk) 🙂.
+
+We've been working hard to fix a lot of things and we've updated more than 50 new releases with a lot of improvements and stability fixes and we've brought new features for almost two years now.
+
+We'll try to keep this extension up-to-date as much as we can and add new relevant features. For the last 6 months I wasn't able to work a lot on the project because of personal reasons at the time so I'm glad [@satiromarra](https://github.com/satiromarra) was able to take on while I wasn't here.
+
+Also we would be more than happy to have you participate in one way or another to this project. You can do so by simply following the [templates](https://github.com/Natizyskunk/vscode-sftp/issues/new/choose) when you open a new issue or a new pull request.
 
 ---
 
@@ -39,20 +57,13 @@ VSCode-SFTP enables you to add, edit or delete files within a local directory an
 
 ## Installation
 
-### Method 1 (Recommended : Auto update)
+### Recommended migration
 1. Select Extensions (Ctrl + Shift + X).
-2. Uninstall current sftp extension from @liximomo.
-3. Install new extension directly from VS Code Marketplace : https://marketplace.visualstudio.com/items?itemName=Natizyskunk.sftp.
+2. Uninstall old extension.
+3. Install `CCD-Studios.ccd-sftp` from the VS Code Marketplace: https://marketplace.visualstudio.com/items?itemName=CCD-Studios.ccd-sftp.
 4. Voilà!
 
-### Method 2 (Manual update)
-To install just follow these steps from within VSCode:
-1. Select Extensions (Ctrl + Shift + X).
-2. Uninstall current sftp extension from @liximomo.
-3. Open "More Action" menu(ellipsis on the top) and click "Install from VSIX…".
-4. Locate VSIX file and select.
-5. Reload VSCode.
-6. Voilà!
+Your existing `sftp.json` configuration can usually be reused as-is.
 
 ## Documentation
 - [Home](https://github.com/Natizyskunk/vscode-sftp/wiki)
@@ -101,9 +112,13 @@ For detailed explanations please go to [wiki](https://github.com/Natizyskunk/vsc
 You can see the full list of configuration options [here](https://github.com/Natizyskunk/vscode-sftp/wiki/configuration).
 
 - [sftp sync extension for VS Code](#sftp-sync-extension-for-vs-code)
+  - [Deprecation Notice](#deprecation-notice)
+    - [Recommended successor: CCD SFTP](#recommended-successor-ccd-sftp)
+  - [Migration](#migration)
+  - [Project continuity](#project-continuity)
+  - [INFOS - 2023/06/23](#infos---20230623)
   - [Installation](#installation)
-    - [Method 1 (Recommended : Auto update)](#method-1-recommended--auto-update)
-    - [Method 2 (Manual update)](#method-2-manual-update)
+    - [Recommended migration](#recommended-migration)
   - [Documentation](#documentation)
   - [Usage](#usage)
   - [Example configurations](#example-configurations)
